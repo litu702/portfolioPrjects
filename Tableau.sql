@@ -1,6 +1,6 @@
 --1
 select sum(new_cases) as TotalNewCases,sum(cast(new_deaths as int)) as "Total_Deaths",
-sum(cast(new_deaths as int))/(sum(new_cases)*100) as "Death_Rate"
+sum(cast(new_deaths as int))/(sum(cast(new_cases as int)))*100 as "Death_Rate"
 from COVID_DEATH
 where continent is not null
 --having sum(new_cases) is not null
