@@ -5,4 +5,4 @@ Data exploration and tableau visualisation have been done using the covid-19 dat
 Correlation has been done using python.
 Movies.sql file contains the sql queries on movie data set.
 There is also a pdf file that contains the "FINDINGS & IMPLICATIONS" of Stack Overflow Developer Survey-2019, I have done this capstone project in my IBM Data Analytics Professional Course.
-There are three screen shots of my dashboard that I have created during the capstone project.
+There are three screen shots of my dashboard that I have created during the capstone project using IBM Cognos Data Analytics.
